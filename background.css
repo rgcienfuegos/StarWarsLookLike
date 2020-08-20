@@ -1,0 +1,180 @@
+body {
+	background: #000;
+	margin: 0;
+	  padding-top:400px;
+	font-family: 'Oswald';
+  }
+  
+  .scene-container {
+	  overflow: visible;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  
+  }
+  
+  .parallax-container {
+	position: absolute;
+	overflow: visible;
+	width: 2560px;
+	height: 1440px;
+	background: #000;
+	z-index: 1;
+  }
+  .parallax-layer {
+	width: 100vw;
+	height:100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-position: bottom center;
+	background-repeat: repeat-x;
+  
+  }
+  .layer-logo {
+	z-index: 15;
+	background-image: url('http://coyle.online/endor/img/endorlogo.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	background-attachment: fixed !important;
+		  background-position: center top !important;
+		  -webkit-background-size: cover !important;
+		  -moz-background-size: cover !important;
+		  background-size: cover !important;
+  }
+  
+  
+  
+  .layer-1 {
+	  top:0; !important;
+	z-index: 5;
+	background-image: url('http://coyle.online/endor/img/endor11.png');
+	   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-2 {
+	z-index: 10;
+	background-image: url('http://coyle.online/endor/img/endor10.png');
+	   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-3 {
+	z-index: 15;
+	background-image: url('http://coyle.online/endor/img/endor9.png');
+	   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-4 {
+	top:25px; !important;
+	z-index: 20;
+	background-image: url('http://coyle.online/endor/img/endor8.png');
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-5 {
+	   top:90px; !important;
+	z-index: 20;
+	background-image: url('http://coyle.online/endor/img/endor7.png');
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+	  
+  .layer-6 {
+	 top:30px; !important;
+	z-index: 20;
+	background-image: url('http://coyle.online/endor/img/endor6.png');
+   -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-7 {
+	  top:55px; !important;
+	z-index: 25;
+	background-image: url('http://coyle.online/endor/img/endor5.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-8 {
+	  top:110px; !important;
+	z-index: 30;
+	background-image: url('http://coyle.online/endor/img/endor4.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-9 {
+	  top:105px; !important;
+	z-index: 35;
+	background-image: url('http://coyle.online/endor/img/endor3.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .layer-10 {
+	top:105px; !important;
+	z-index: 35;
+	background-image: url('http://coyle.online/endor/img/endor2.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+  .layer-11 {
+	top:110px; !important;
+	z-index: 35;
+	background-image: url('http://coyle.online/endor/img/endor1.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  
+  .layer-top {
+	  top:0;
+	z-index: 30;
+	background-image: url('http://coyle.online/endor/img/endor-top.png');
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+   
+	
+  .content {
+	position: absolute;
+	top: 110vh;
+	background: #000000;
+	width: 100vw;
+	min-height: 110vh;
+	z-index: 1000;
+  }
+  .content h1 {
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+  }
+  
+  
+  
+  
+  
