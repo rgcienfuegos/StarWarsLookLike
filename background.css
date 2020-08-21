@@ -229,7 +229,7 @@ body {
 	  font-weight: 700;
 	  color: #ff6;
 	  background-color: #000;
-	 
+	  scroll-behavior: smooth;
   }
 
 
