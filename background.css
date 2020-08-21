@@ -217,7 +217,7 @@ h1 sub
 body {
 	margin: 0;
 	padding-top:400px;
-	font-family: 'Oswald';
+
 	
   }
 
@@ -428,30 +428,60 @@ body {
   */
    /* 1200px / 16px = 75em */
    @media (max-width: 75em) {
-.layer-top {
-			display:none;
-				
-			}
+
   }
 
 
 
   .content {
+	 
 	position: absolute;
-	top: 100vh;
+	top: 110vh;
 	background:black;
 	width: 100%;
-	min-height: 100vh;
+	min-height: 110vh;
 	z-index: 1000;
+	align-content:center
   }
 
   
   svg {
-    height: 100vmin;
-    left: calc(50% - 50vmin);
-    position: absolute;
-    width: 100vmin;
+	
+	position: absolute;
+    height: 100%;
+    width: 100%;
+  
+	
+	
   }
   
+ 
+	  
+}
 
+  
+footer {
+	margin-top: 30px;
+	background-color: #ddd;
+	padding: 20px;
+  position:bottom;
+  }
+  
+  footer > ul {
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+	padding: 0 10px;
+  }
+  
+  footer > span {
+	margin-top: 5px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 0.9em;
+	color: #444;
+	width: 100%;   
+  }
   
