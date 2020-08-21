@@ -318,7 +318,7 @@ html{
   }
   .layer-3 {
 	z-index: 15;
-	background-image: url('/img/endorfondo2.png');
+	background-image: url('img/endorfondo2.png');
 	   -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -328,7 +328,7 @@ html{
   .layer-4 {
 	top:25px; 
 	z-index: 20;
-	background-image: url('/img/endorTorre.png');
+	background-image: url('img/endorTorre.png');
    -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -339,7 +339,7 @@ html{
   .layer-6 {
 	 top:30px;
 	z-index: 20;
-	background-image: url('/img/endor6.png');
+	background-image: url('img/endor6.png');
    -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
