@@ -236,23 +236,6 @@ html{
 
 
 
-  #gb {
-	width:104px;
-	height:150px;
-	background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-guybrush.png) no-repeat;
-	animation:gbwalk 1s steps(6) infinite;
-	margin:auto;
-	position:relative;
-	bottom:34px;
-	/* Ojo, muy costoso en rendimiento */
-	/* filter:drop-shadow(5px 5px 5px #000); */
-  }
-  
-  @keyframes gbwalk {
-	0% { background-position:0 }
-	100% { background-position:-624px }
-  }
-  
   .scene-container {
 	  overflow: visible;
 	  position: absolute;
@@ -418,12 +401,32 @@ html{
    * As an example: a breakpoint at 980px
    * 980px / 16px = 61.25em
   */
+  
+
    /* 1200px / 16px = 75em */
    @media (max-width: 75em) {
-
+	.parallax-layer {
+		data-max-scroll:"1200";
+	  
+	  }
   }
-
-
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+	.parallax-layer {
+		data-max-scroll:"980";
+	  
+	  }
+ 
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+	.parallax-layer {
+		data-max-scroll:"460";
+	  
+	  }
+    }
 
   .content {
 	 
@@ -438,13 +441,10 @@ html{
 
   
   svg {
-	
+	height: 100%;
+
 	position: absolute;
-    height: 100%;
-    width: 100%;
-  
-	
-	
+	width: 100%;
   }
   
  
