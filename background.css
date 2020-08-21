@@ -220,7 +220,9 @@ body {
 
 	
   }
-
+html{
+	scroll-behavior: smooth;
+}
   body, html
   {
 	width: 100%;
@@ -229,7 +231,7 @@ body {
 	  font-weight: 700;
 	  color: #ff6;
 	  background-color: #000;
-	  scroll-behavior: smooth;
+	
   }
 
 
@@ -296,7 +298,7 @@ body {
 
   
   .layer-1 {
-	  top:0; !important;
+	  top:0; 
 	z-index: 5;
 	background-image: url('http://coyle.online/endor/img/endor11.png');
 	   -webkit-background-size: cover;
@@ -324,7 +326,7 @@ body {
 
   }
   .layer-4 {
-	top:25px; !important;
+	top:25px; 
 	z-index: 20;
 	background-image: url('http://coyle.online/endor/img/endor8.png');
    -webkit-background-size: cover;
@@ -334,7 +336,7 @@ body {
 	
   }
   .layer-5 {
-	   top:90px; !important;
+	   top:90px;
 	z-index: 20;
 	background-image: url('http://coyle.online/endor/img/endor7.png');
    -webkit-background-size: cover;
@@ -345,7 +347,7 @@ body {
   }
 	  
   .layer-6 {
-	 top:30px; !important;
+	 top:30px;
 	z-index: 20;
 	background-image: url('http://coyle.online/endor/img/endor6.png');
    -webkit-background-size: cover;
@@ -355,7 +357,7 @@ body {
 	max-height:100vh;
   }
   .layer-7 {
-	  top:55px; !important;
+	  top:55px;
 	z-index: 25;
 	background-image: url('http://coyle.online/endor/img/endor5.png');
 	 -webkit-background-size: cover;
@@ -365,7 +367,7 @@ body {
 	max-height:100vh;
   }
   .layer-8 {
-	  top:125px; !important;
+	  top:125px; 
 	  
 	z-index: 30;
 	background-image: url('http://coyle.online/endor/img/endor4.png');
@@ -376,7 +378,7 @@ body {
 	
   }
   .layer-9 {
-	  top:100px; !important;
+	  top:100px; 
 	z-index: 35;
 	background-image: url('http://coyle.online/endor/img/endor3.png');
 	 -webkit-background-size: cover;
@@ -386,7 +388,7 @@ body {
 	
   }
   .layer-10 {
-	top:100px; !important;
+	top:100px;
 	z-index: 35;
 	background-image: url('http://coyle.online/endor/img/endor2.png');
 	 -webkit-background-size: cover;
@@ -398,7 +400,7 @@ body {
   }
   
   .layer-11 {
-	top:105px; !important;
+	top:105px;
 	z-index: 35;
 	background-image: url('http://coyle.online/endor/img/endor1.png');
 	 -webkit-background-size: cover;
