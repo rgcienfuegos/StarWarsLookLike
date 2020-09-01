@@ -266,6 +266,7 @@ html{
   
   }
   .layer-logo {
+      top:15; 
 	z-index: 15;
 	background-image: url('img/endorlogo.png');
 	-webkit-background-size: cover;
